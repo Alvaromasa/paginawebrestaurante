@@ -1,0 +1,66 @@
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+    color: #AAAAAA;
+    font-family: 'Andika New Basic', 'Noto Sans JP', 'Padauk', 'Verdana', 'sans-serif';
+    font-size: 1.3em;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: skyblue;
+    align-items: center;
+    min-height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+.enlaces{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    
+   
+}
+.enlaces a{
+    
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul li {
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.titulonav{
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+main{
+padding: 30px 0;
+width: 95%;
+margin: auto;
+overflow: hidden;
+}
+.listado-postres{
+
+    overflow: hidden;
+
+}
+.postre{
+    border: 1px solid #333;
+    width: 300px;
+    float: left;
+    display: block;
+    margin: 30px;
+    padding: 20px;
+
+
+}
+.postre img {
+    width: 150px;
+}

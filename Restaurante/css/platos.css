@@ -1,0 +1,147 @@
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+    color: #AAAAAA;
+    font-family: 'Andika New Basic', 'Noto Sans JP', 'Padauk', 'Verdana', 'sans-serif';
+    font-size: 1.3em;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: skyblue;
+    align-items: center;
+    min-height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+.enlaces{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    
+   
+}
+.enlaces a{
+    
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul li {
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.titulonav{
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+main{
+padding: 30px 0;
+width: 95%;
+margin: auto;
+overflow: hidden;
+}
+.tabla{
+    margin-top: 2em;
+    float: left;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1em;
+    background-color: rgb(212, 234, 243);
+    color: black;
+}
+
+.tabla thead{
+    background-color: skyblue;
+    color: black;
+    padding: 0.5em;
+}
+
+.pescadoHorno{
+    float: left;
+    font-size: 1em;
+    margin-bottom: 2em;
+
+}
+.pescadoHorno p.destacado{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: skyblue;
+    text-align: center;
+
+ 
+}
+
+.pescadoHorno p{
+    text-align: justify;
+    line-height: 2em;
+
+}
+
+
+.pescadoHorno img{
+    width: 300px;
+    float: right;
+    margin-left: 3em;
+
+}
+
+.pescadoPlancha p.destacado{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: skyblue;
+    text-align: center;
+
+ 
+}
+
+.pescadoPlancha p{
+    text-align: justify;
+    line-height: 2em;
+
+}
+
+
+.pescadoPlancha img{
+    width: 300px;
+    float: right;
+    margin-left: 3em;
+
+}
+.arroz{
+    float:left;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+.arroz p.destacado{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: skyblue;
+    text-align: center;
+}
+
+.arroz img{
+    width: 300px;
+    float: right;
+    margin-left: 3em;
+    
+}
+
+.arroz p{
+    text-align: justify;
+    line-height: 2em;
+}
+h2 {
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: skyblue;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
